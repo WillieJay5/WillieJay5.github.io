@@ -40,6 +40,11 @@ jobs:
           gem install bundler  # Install Bundler
           bundle config set --local path 'vendor/bundle'
           bundle install  # Install dependencies
+      - name: Install Bundler and Dependencies  # ✅ Add this step here
+        run: |
+          gem install bundler --user-install
+          bundle config set --local path 'vendor/bundle'
+          bundle install
 
       - name: Setup GitHub Pages
         id: pages

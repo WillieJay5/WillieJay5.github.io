@@ -3,7 +3,7 @@ name: Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - main  # Make sure this is your actual default branch
+      - main  # Ensure this matches your default branch
   workflow_dispatch:
 
 permissions:
@@ -28,7 +28,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y ruby-full build-essential zlib1g-dev
-          
+
           # Set up gem installation directory in user space (fixes permission issues)
           echo 'export GEM_HOME=$HOME/.gem' >> $HOME/.bashrc
           echo 'export PATH=$HOME/.gem/bin:$PATH' >> $HOME/.bashrc
@@ -40,8 +40,13 @@ jobs:
         run: |
           export GEM_HOME=$HOME/.gem
           export PATH=$HOME/.gem/bin:$PATH
-
+          
           gem install bundler --user-install
+          
+          # Ensure Bundler is available in PATH
+          echo 'export PATH=$HOME/.gem/ruby/3.2.0/bin:$PATH' >> $HOME/.bashrc
+          export PATH=$HOME/.gem/ruby/3.2.0/bin:$PATH
+          
           bundle config set --local path 'vendor/bundle'  # Ensure gems install locally
           bundle install --jobs 4 --retry 3  # Install dependencies with parallel jobs for speed
 
@@ -52,7 +57,8 @@ jobs:
       - name: Build Jekyll site
         run: |
           export GEM_HOME=$HOME/.gem
-          export PATH=$HOME/.gem/bin:$PATH
+          export PATH=$HOME/.gem/ruby/3.2.0/bin:$PATH
+          
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production

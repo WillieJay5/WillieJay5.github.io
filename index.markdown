@@ -7,7 +7,7 @@ title: Welcome
 cover: true
 permalink: /
 selected_projects:
-  - projects/example
+  - example
 projects_page: projects.md
 featured: false
 ---

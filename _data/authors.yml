@@ -8,11 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
+    I’m Gage Neumaier, an aspiring IT Help Desk Technician with a strong foundation in technical support, cybersecurity, and system administration. Through a hands-on cybersecurity bootcamp and self-guided projects, I’ve developed practical skills in Windows and Linux environments, Active Directory, network troubleshooting, and Microsoft 365 support. I’m passionate about solving technical problems, supporting end users, and continuing to grow in the IT field. With a client-first mindset, strong communication skills, and a drive to learn, I’m eager to jumpstart my IT career and bring my knowledge and dedication to a help desk role and beyond.
 
   # This photo will be used in the about section
   #picture:

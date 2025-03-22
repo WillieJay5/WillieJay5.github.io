@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Hello, World!
 
-My name is **Gage Neumaier**, also known as **WillieJay5**. 
+My name is **Gage Neumaier**, also known as **WillieJay5**.\n
 I am actively pursuing a career in **Information Technology**, with a focus on providing exceptional support and technical solutions. 
 I hold a Bachelor’s degree in **Biological Systems Engineering** and have recently earned my **CompTIA Security+* certification. 
 I am currently seeking opportunities in **Help Desk* or **IT Support** roles where I can apply my strong troubleshooting abilities, attention to detail, and growing expertise in cybersecurity to support users and maintain efficient, secure systems.

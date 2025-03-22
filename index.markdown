@@ -6,6 +6,10 @@ layout: welcome
 title: Welcome
 cover: true
 permalink: /
+selected_projects:
+  - /projects/hyde-v2/
+projects_page: projects.md
+featured: false
 ---
 
 # Hi, I’m Gage – Aspiring IT Help Desk Technician

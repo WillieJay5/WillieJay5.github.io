@@ -1,5 +1,8 @@
 ---
-layout: projects
-title: Guides*
-show_collection: guides #!!
+layout: collection
+title: Guides
+collection: guides
+permalink: /guides/
+menu: true
+order: 3
 ---

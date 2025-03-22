@@ -1,0 +1,55 @@
+{
+  "basics": {
+    "name": "Gage Neumaier",
+    "label": "Aspiring IT Help Desk Technician",
+    "email": "gage.neumaier@gmail.com",
+    "phone": "(608) 333-9955",
+    "location": {
+      "city": "Madison",
+      "region": "Wisconsin"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "gage-neumaier-239ab21a5",
+        "url": "https://linkedin.com/in/gage-neumaier-239ab21a5"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "University of Wisconsin-Madison",
+      "area": "Cybersecurity Professional Program",
+      "studyType": "Certificate",
+      "endDate": "2025-01"
+    },
+    {
+      "institution": "University of Wisconsin-Madison",
+      "area": "Biological Systems Engineering: Mechanical Systems",
+      "studyType": "B.S.",
+      "endDate": "2022-05"
+    }
+  ],
+  "work": [
+    {
+      "company": "Freelance IT Help Desk Technician",
+      "position": "IT Support Technician",
+      "startDate": "2023-01",
+      "summary": "Provided technical support, handled user accounts, and resolved hardware/software issues."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technical Support",
+      "keywords": ["Windows", "Linux", "Active Directory", "Microsoft 365", "Ticketing Systems"]
+    },
+    {
+      "name": "Networking",
+      "keywords": ["DNS", "DHCP", "VPN", "Firewall Configuration"]
+    },
+    {
+      "name": "Scripting",
+      "keywords": ["Python", "PowerShell"]
+    }
+  ]
+}

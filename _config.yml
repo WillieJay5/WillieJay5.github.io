@@ -42,6 +42,8 @@ menu:
     url:   /
   - title: About
     url:   /about/
+  - title: Guides
+    url:   /guides/
   - title: Projects
     url:   /projects/
   - title: Resume

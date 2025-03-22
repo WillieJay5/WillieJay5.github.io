@@ -16,10 +16,6 @@ I’m currently seeking opportunities in **Help Desk** or **IT Support** roles w
 
 ---
 
-<!--projects-->
-
----
-
 ## Work Smarter Not Harder
 
 Some complex problems have the **simplest answers**. Too many people overthink problems amd cause themselves to be less efficient.

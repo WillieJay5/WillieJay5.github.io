@@ -7,11 +7,8 @@ permalink: /about/
 ## Hello, World!
 
 My name is **Gage Neumaier**, a.k.a **WillieJay5**
-
 I'm currently working to start my career in **Information Technology**
-
 I hold a **Bachelor’s degree in Biological Systems Engineering** and recently obtained my **CompTIA Security+** certification.
-
 I’m currently seeking opportunities in **Help Desk** or **IT Support** roles where I can put my troubleshooting skills, attention to detail, and growing security knowledge to work.
 
 ---

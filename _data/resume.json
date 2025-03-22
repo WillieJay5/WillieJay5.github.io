@@ -21,20 +21,20 @@
       "institution": "University of Wisconsin-Madison",
       "area": "Cybersecurity Professional Program",
       "studyType": "Certificate",
-      "endDate": "2025-01"
+      "endDate": "2025-09-01"
     },
     {
       "institution": "University of Wisconsin-Madison",
       "area": "Biological Systems Engineering: Mechanical Systems",
       "studyType": "B.S.",
-      "endDate": "2022-05"
+      "endDate": "2022-14-05"
     }
   ],
   "work": [
     {
       "company": "Freelance IT Help Desk Technician",
       "position": "IT Support Technician",
-      "startDate": "2023-01",
+      "startDate": "2024-05-03",
       "summary": "Provided technical support for end users, managed Windows and Apple devices, configured Microsoft 365 apps, and resolved hardware/software issues. Administered Active Directory accounts and documented support cases in a ticketing system."
     }
   ],
@@ -93,11 +93,11 @@
   "certificates": [
     {
       "name": "CompTIA Security+",
-      "date": "2025-02"
+      "date": "2025-09-03"
     },
     {
       "name": "JPMorgan Chase & Co. - Cybersecurity Job Simulation",
-      "date": "2024-09"
+      "date": "2024-28-09"
     }
   ],
   "projects": [

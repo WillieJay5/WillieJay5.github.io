@@ -5,6 +5,7 @@
 layout: welcome
 title: Welcome
 cover: true
+permalink: /index/
 ---
 
 # Hi, I’m Gage – Aspiring IT Help Desk Technician

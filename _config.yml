@@ -55,6 +55,10 @@ collections:
   projects:
     permalink: /projects/:path/
     output:    true
+  guides:
+    # Make sure the permalink path is different!
+    permalink:         /guides/:path/
+    output:            true
 
 
 # Exclude from processing.

@@ -7,7 +7,7 @@ title: Welcome
 cover: true
 permalink: /
 selected_projects:
-  - /projects/hyde-v2/
+  - /projects/example.md
 projects_page: projects.md
 featured: false
 ---

@@ -13,8 +13,7 @@ permalink: /
 _Solving technical problems, supporting users, and launching my career in IT._
 
 [**View My Resume**](./resume)  
-[**Explore My Projects**](./projects)  
-[**Contact Me**](./contact)
+[**Explore My Projects**](./projects)
 
 ---
 
@@ -39,11 +38,7 @@ I'm Gage Neumaier, an aspiring IT Help Desk Technician with hands-on experience 
 ## Projects Showcase
 
 **Home Lab Security Audit**  
-Hardened Windows and Linux systems using ISO 27001-aligned practices.
-
-**TODO**
-
-**TODO**
+<!--projects-->
 
 [**View all projects →**](./projects)
 

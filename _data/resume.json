@@ -1,0 +1,121 @@
+{
+  "basics": {
+    "name": "Gage Neumaier",
+    "label": "Aspiring IT Help Desk Technician",
+    "email": "gage.neumaier@gmail.com",
+    "phone": "(608) 333-9955",
+    "location": {
+      "city": "Madison",
+      "region": "Wisconsin"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "gage-neumaier-239ab21a5",
+        "url": "https://linkedin.com/in/gage-neumaier-239ab21a5"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "University of Wisconsin-Madison",
+      "area": "Cybersecurity Professional Program",
+      "studyType": "Certificate",
+      "endDate": "2025-01"
+    },
+    {
+      "institution": "University of Wisconsin-Madison",
+      "area": "Biological Systems Engineering: Mechanical Systems",
+      "studyType": "B.S.",
+      "endDate": "2022-05"
+    }
+  ],
+  "work": [
+    {
+      "company": "Freelance IT Help Desk Technician",
+      "position": "IT Support Technician",
+      "startDate": "2023-01",
+      "summary": "Provided technical support for end users, managed Windows and Apple devices, configured Microsoft 365 apps, and resolved hardware/software issues. Administered Active Directory accounts and documented support cases in a ticketing system."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technical Support",
+      "keywords": [
+        "Windows",
+        "Linux",
+        "Active Directory",
+        "Microsoft 365",
+        "Hardware Troubleshooting",
+        "Software Installation",
+        "Ticketing Systems"
+      ]
+    },
+    {
+      "name": "Networking",
+      "keywords": [
+        "DNS",
+        "DHCP",
+        "VPN",
+        "Firewall Configuration",
+        "Wireshark",
+        "Zeek"
+      ]
+    },
+    {
+      "name": "Cybersecurity Tools",
+      "keywords": [
+        "Splunk",
+        "Suricata",
+        "pfSense",
+        "FTK Imager",
+        "Autopsy"
+      ]
+    },
+    {
+      "name": "Scripting and Automation",
+      "keywords": [
+        "Python",
+        "PowerShell",
+        "Bash"
+      ]
+    },
+    {
+      "name": "Cloud & Virtualization",
+      "keywords": [
+        "AWS EC2",
+        "Windows Server",
+        "Ubuntu",
+        "Virtual Machine Hardening"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "CompTIA Security+",
+      "date": "2025-02"
+    },
+    {
+      "name": "JPMorgan Chase & Co. - Cybersecurity Job Simulation",
+      "date": "2024-09"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Home Lab Security Audit",
+      "description": "Conducted a security audit of home lab systems. Implemented hardening techniques, configured firewalls, and set up logging and monitoring tools like auditd and Splunk."
+    },
+    {
+      "name": "SIEM Threat Detection Simulation",
+      "description": "Configured Splunk to detect security events using alerts and dashboards based on simulated threats from TryHackMe labs."
+    },
+    {
+      "name": "Endpoint Detection & Response",
+      "description": "Deployed Suricata IDS/IPS and used SysInternals on Windows to investigate suspicious behavior."
+    },
+    {
+      "name": "Network Forensics",
+      "description": "Used Wireshark and Zeek to analyze PCAP files and identify potential threats and anomalies."
+    }
+  ]
+}

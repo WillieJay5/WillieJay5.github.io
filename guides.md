@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: projects
 title: Guides
 permalink: /guides/
 ---

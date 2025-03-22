@@ -7,7 +7,7 @@ title: Welcome
 cover: true
 permalink: /
 selected_projects:
-  - /projects/example.md
+  - ./_projects/example.md
 projects_page: projects.md
 featured: false
 ---
@@ -40,11 +40,7 @@ I'm Gage Neumaier, an aspiring IT Help Desk Technician with hands-on experience 
 ---
 
 ## Projects Showcase
-
-**Home Lab Security Audit**  
 <!--projects-->
-
-[**View all projects →**](./projects)
 
 ---
 

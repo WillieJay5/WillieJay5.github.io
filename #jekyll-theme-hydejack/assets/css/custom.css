@@ -1,0 +1,9 @@
+.icon-tryhackme {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url('/assets/img/tryhackme.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}

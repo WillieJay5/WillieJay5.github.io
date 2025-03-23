@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<!--author-->
+
 ## Hello, World!
 
 My name is **Gage Neumaier**, also known as **WillieJay5**.

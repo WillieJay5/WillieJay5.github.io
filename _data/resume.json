@@ -138,8 +138,22 @@
   ],
   "interests": [
     {
-      "name": "Activity",
-      "keywords": ["Weight Training", "Hiking"]
+      "name": "Technical Exploration",
+      "keywords": [
+        "Home Lab Projects",
+        "Linux Server Administration",
+        "Game Server Hosting",
+        "Media Streaming Servers",
+        "Virtualization",
+        "Firewall Configuration"
+      ]
+    },
+    {
+      "name": "Fitness & Outdoors",
+      "keywords": [
+        "Weight Training",
+        "Hiking"
+      ]
     }
   ]
 }

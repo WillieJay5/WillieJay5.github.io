@@ -15,7 +15,9 @@
           <div class="resume-item-details">
             <span class="resume-item-subtitle">{{ cert.issuer }}</span>
             {% if cert.summary %}
-              <p>{{ cert.summary }}</p>
+              <p class="note p-note" property="description">
+                {{ cert.summary | markdownify | replace:'<p>','' | replace:'</p>','' }}
+              </p>
             {% endif %}
             {% if cert.url %}
               <p><a href="{{ cert.url }}" target="_blank">View Certificate</a></p>

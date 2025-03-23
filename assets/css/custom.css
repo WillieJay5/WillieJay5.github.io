@@ -6,4 +6,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   vertical-align: middle;
+  filter: brightness(0) invert(1); /* Makes it white like Font Awesome */
+  opacity: 0.85;                   /* Match FA subtle tone */
 }

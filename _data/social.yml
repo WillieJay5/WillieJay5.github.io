@@ -261,3 +261,7 @@ discord:
 mastodon:
   name: Mastodon
   icon: icon-mastodon
+tryhackme:
+  name: try hackme
+  icon: icon-
+  prepend: https://tryhackme.com/p/

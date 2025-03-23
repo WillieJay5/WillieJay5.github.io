@@ -3,7 +3,8 @@
   width: 1em;
   height: 1em;
   background-color: currentColor;
-  vertical-align: text-bottom;
+  vertical-align: middle;
+  transform: translateY(0.1em); /* Try 0.05em or -0.05em if needed */
 
   /* Mask settings if still using a mask */
   -webkit-mask-image: url('/assets/img/tryhackme.svg');

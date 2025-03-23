@@ -54,6 +54,11 @@ menu:
 # Build settings
 theme: jekyll-theme-hydejack
 
+#Load custom.css
+hydejack:
+  styles:
+    - assets/css/custom.css
+
 #Project settings
 collections:
   projects:

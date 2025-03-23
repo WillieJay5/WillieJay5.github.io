@@ -262,6 +262,6 @@ mastodon:
   name: Mastodon
   icon: icon-mastodon
 tryhackme:
-  name: try hackme
+  name: Try Hack Me
   icon: icon-tryhackme
   prepend: https://tryhackme.com/p/

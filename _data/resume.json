@@ -37,6 +37,7 @@
       "courses": [
         "Computer Networking Fundamentals",
         "Microsoft Security System Administration"
+      "summary": "Completed intensive training focused on system security, user access management, and network troubleshooting. Developed hands-on experience with Windows administration tools, threat identification, and incident response—skills directly applicable to supporting end users and maintaining secure IT environments."
       ]
     },
         {
@@ -51,6 +52,7 @@
         "Data Structures",
         "Machine Organization",
         "Programming"
+      "summary": "Built a strong foundation in analytical thinking and problem-solving through programming, systems analysis, and structured data handling. Courses in operating systems and machine organization provided technical insights relevant to diagnosing and resolving hardware/software issues."
       ]
     }
   ],
@@ -76,6 +78,7 @@
         "Windows Event Log Analysis",
         "Firewall Configuration (pfSense)",
         "Malware Detection"
+      "summary": "Provides the ability to monitor and investigate alerts, logs, and suspicious activity—skills useful for identifying system issues and escalating incidents appropriately in help desk environments."
       ]
     },
     {
@@ -92,6 +95,7 @@
         "Network Traffic Analysis (Wireshark, Zeek)",
         "Packet Inspection",
         "Firewall Rules"
+      "summary": "Strong understanding of core networking concepts and troubleshooting tools, essential for diagnosing connectivity issues and supporting remote access or DNS/DHCP-related user problems."
       ]
     },
     {
@@ -101,6 +105,7 @@
         "Windows",
         "Linux (Kali, Debian 12, Ubuntu)",
         "Unix"
+      "summary": "Comfortable working across Windows, Linux, and Unix environments to manage users, perform routine maintenance, and troubleshoot system-level issues faced by end users."
       ]
     },
     {
@@ -112,6 +117,7 @@
         "Open Source Threat Intelligence (OSINT)",
         "Digital Artifact Examination",
         "Endpoint Security Strategies"
+      "summary": "Capable of examining logs and endpoint data to identify root causes of issues, useful for diagnosing malware infections, login failures, or unauthorized access."
       ]
     },
     {
@@ -124,6 +130,7 @@
         "Security Automation",
         "Log Parsing",
         "Threat Detection"
+      "summary": "Uses scripting to automate repetitive tasks, parse logs, and support system diagnostics—enhancing efficiency in resolving tickets and improving service desk workflows."
       ]
     },
     {
@@ -133,6 +140,7 @@
         "AWS Security",
         "Windows Server Security Policies",
         "Virtual Machine Hardening"
+      "summary": "Basic experience securing cloud environments and virtual machines, applicable to help desk tasks like managing virtual desktops or applying security configurations."
       ]
     }
   ],

@@ -1,0 +1,22 @@
+{% if resume.certificates %}
+  <section>
+    <header>
+      <h2 class="section-title">Certificates</h2>
+    </header>
+    {% for cert in resume.certificates %}
+      <div class="resume-item">
+        <h3 class="resume-item-title">{{ cert.name }}</h3>
+        <p class="resume-item-meta">
+          <span>{{ cert.issuer }}</span>
+          {% if cert.date %} | <span>{{ cert.date }}</span>{% endif %}
+        </p>
+        {% if cert.summary %}
+          <p>{{ cert.summary }}</p>
+        {% endif %}
+        {% if cert.url %}
+          <p><a href="{{ cert.url }}" target="_blank">View Certificate</a></p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </section>
+{% endif %}

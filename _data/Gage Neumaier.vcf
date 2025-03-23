@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 17.5.1//EN
+N:Neumaier;Gage;;;
+FN:Gage Neumaier
+EMAIL;type=INTERNET;type=HOME;type=pref:gage.neumaier@gmail.com
+TEL;type=pref:(608) 333-9955
+item1.ADR;type=HOME;type=pref:;;6745 Schroeder Rd;Madison;WI;53711;United States
+item1.X-ABADR:US
+item1.X-APPLE-SUBLOCALITY:South West Side
+item1.X-APPLE-SUBADMINISTRATIVEAREA:Dane County
+X-SOCIALPROFILE;type=GitHub;x-user=WillieJay5:x-apple:WillieJay5
+X-SOCIALPROFILE;type=linkedin:http://www.linkedin.com/in/gage-neumaier-239ab21a5
+END:VCARD

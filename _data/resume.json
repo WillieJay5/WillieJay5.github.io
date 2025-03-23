@@ -1,101 +1,131 @@
 {
   "basics": {
     "name": "Gage Neumaier",
-    "label": "Aspiring IT Help Desk Technician",
+    "label": "Aspiring IT Support Technician",
     "email": "gage.neumaier@gmail.com",
-    "phone": "(608) 333-9955",
+    "phone": "(608)3339955",
+    "website": "https://williejay5.github.io",
+    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation! Open `_data/resume.yml` to edit this text.",
     "location": {
+      "address": "6745 Schroeder Rd",
+      "postalCode": "WI 53711",
       "city": "Madison",
+      "countryCode": "US",
       "region": "Wisconsin"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "gage-neumaier-239ab21a5",
-        "url": "https://linkedin.com/in/gage-neumaier-239ab21a5"
+        "username": "Gage Neumaier",
+        "url": "https://www.linkedin.com/in/gage-neumaier-239ab21a5/"
       }
     ]
   },
   "education": [
     {
-      "institution": "University of Wisconsin-Madison",
-      "area": "Cybersecurity Professional Program",
+      "institution": "University of Wisconsin - Madison",
+      "area": "Cybersecurity Proffesional",
       "studyType": "Certificate",
-      "endDate": "2025-01-01"
+      "startDate": "2024-03-25",
+      "endDate": "2025-01-09",
+      "gpa": "4.0",
+      "courses": [
+        "Computer Networking Fundamentals",
+        "Microsoft Security System Administration"
+      ]
     },
-    {
-      "institution": "University of Wisconsin-Madison",
-      "area": "Biological Systems Engineering: Mechanical Systems",
-      "studyType": "B.S.",
-      "endDate": "2022-01-05"
+        {
+      "institution": "University of Wisconsin - Madison",
+      "area": "Biological Systems Engineering",
+      "studyType": "Bachelors",
+      "startDate": "2015-07-09",
+      "endDate": "2022-05-12",
+      "gpa": "2.6",
+      "courses": [
+        "Introduction to Operating Systems",
+        "Data Structures",
+        "Machine Organization",
+        "Programming"
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Technical Support",
+      "name": "Security Operations & Threat Monitoring",
+      "level": "Intermediate",
       "keywords": [
-        "Windows",
-        "Linux",
-        "Active Directory",
-        "Microsoft 365",
-        "Hardware Troubleshooting",
-        "Software Installation",
-        "Ticketing Systems"
+        "SIEM (Splunk)",
+        "IDS/IPS (Suricata)",
+        "Log Analysis",
+        "Threat Intelligence",
+        "Incident Response",
+        "Windows Event Log Analysis",
+        "Firewall Configuration (pfSense)",
+        "Malware Detection"
       ]
     },
     {
-      "name": "Networking",
+      "name": "Network Security & Protocols",
+      "level": "Intermediate",
       "keywords": [
+        "TCP/IP",
+        "UDP",
         "DNS",
         "DHCP",
         "VPN",
-        "Firewall Configuration",
-        "Wireshark",
-        "Zeek"
+        "Cisco IOS",
+        "Windows Command Line",
+        "Network Traffic Analysis (Wireshark, Zeek)",
+        "Packet Inspection",
+        "Firewall Rules"
       ]
     },
     {
-      "name": "Cybersecurity Tools",
+      "name": "Operating Systems",
+      "level": "Intermediate",
       "keywords": [
-        "Splunk",
-        "Suricata",
-        "pfSense",
-        "FTK Imager",
-        "Autopsy"
+        "Windows",
+        "Linux (Kali, Debian 12, Ubuntu)",
+        "Unix"
       ]
     },
     {
-      "name": "Scripting and Automation",
+      "name": "Digital Forensics & Incident Handling",
+      "level": "Intermediate",
+      "keywords": [
+        "Memory & Disk Analysis (FTK Imager, Autopsy)",
+        "Log File Investigation",
+        "Open Source Threat Intelligence (OSINT)",
+        "Digital Artifact Examination",
+        "Endpoint Security Strategies"
+      ]
+    },
+    {
+      "name": "Programming & Automation",
+      "level": "Intermediate",
       "keywords": [
         "Python",
+        "Bash",
         "PowerShell",
-        "Bash"
+        "Security Automation",
+        "Log Parsing",
+        "Threat Detection"
       ]
     },
     {
-      "name": "Cloud & Virtualization",
+      "name": "Cloud Security & Virtualization",
+      "level": "Beginner",
       "keywords": [
-        "AWS EC2",
-        "Windows Server",
-        "Ubuntu",
+        "AWS Security",
+        "Windows Server Security Policies",
         "Virtual Machine Hardening"
       ]
     }
   ],
-  "certificates": [
+  "interests": [
     {
-      "name": "CompTIA Security+",
-      "date": "2025-01-02"
-    },
-    {
-      "name": "JPMorgan Chase & Co. - Cybersecurity Job Simulation",
-      "date": "2024-01-09"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Home Lab Security Audit",
-      "description": "Conducted a security audit of home lab systems. Implemented hardening techniques, configured firewalls, and set up logging and monitoring tools like auditd and Splunk."
+      "name": "Activity",
+      "keywords": ["Weight Training", "Hiking"]
     }
   ]
 }

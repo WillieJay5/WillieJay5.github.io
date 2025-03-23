@@ -2,10 +2,19 @@
   display: inline-block;
   width: 1em;
   height: 1em;
-  background-image: url('/assets/img/tryhackme.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-color: currentColor;
+  mask-image: url('/assets/img/tryhackme.svg');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url('/assets/img/tryhackme.svg');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
   vertical-align: middle;
-  filter: brightness(0) invert(1); /* Makes it white like Font Awesome */
-  opacity: 0.85;                   /* Match FA subtle tone */
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+.sidebar-social a:hover .icon-tryhackme {
+  opacity: 1;
 }

@@ -3,8 +3,8 @@
   width: 1em;
   height: 1em;
   background-color: currentColor; /* Fill of the shape */
-  -webkit-mask-image: url('/assets/img/tryhackme-mask.svg');
-  mask-image: url('/assets/img/tryhackme-mask.svg');
+  -webkit-mask-image: url('/assets/img/tryhackm.svg');
+  mask-image: url('/assets/img/tryhackme.svg');
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;

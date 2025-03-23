@@ -30,28 +30,4 @@
   {% else %}
     {% assign url = username | prepend:prep | append:app %}
   {% endif %}
-
-  {% if platform == "tryhackme" %}
-    <li>
-      <a href="https://tryhackme.com/p/{{ username }}" title="TryHackMe" class="no-mark-external">
-        <svg viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="icon-tryhackme-svg" aria-label="TryHackMe">
-          <defs>
-            <mask id="mask-tryhackme" maskUnits="userSpaceOnUse">
-              <rect width="24" height="24" fill="white"/>
-                <path fill="black" d="M10.705 0C7.54 0 ... Z"/>
-            </mask>
-          </defs>
-          <rect width="24" height="24" fill="white" rx="4" mask="url(#mask-tryhackme)" />
-        </svg>
-        <span class="sr-only">TryHackMe</span>
-      </a>
-    </li>
-  {% else %}
-    <li>
-      <a href="{{ url }}" title="{{ name }}" class="no-mark-external">
-        <span class="{{ icon }}"></span>
-        <span class="sr-only">{{ name }}</span>
-      </a>
-    </li>
-  {% endif %}
 {% endif %}

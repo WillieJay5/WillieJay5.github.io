@@ -54,6 +54,15 @@
       ]
     }
   ],
+    "certifications": [
+    {
+      "title": "CompTIA Security+",
+      "issuer": "CompTIA",
+      "date": "2024-01-15",
+      "url": "https://www.credly.com/badges/your-badge-id",
+      "summary": "Validated knowledge of core cybersecurity skills including threat analysis, risk management, incident response, and security architecture."
+    }
+  ],
   "skills": [
     {
       "name": "Security Operations & Threat Monitoring",

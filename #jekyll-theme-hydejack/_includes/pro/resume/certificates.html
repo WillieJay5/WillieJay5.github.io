@@ -3,7 +3,7 @@
   <div class="npb">
     <h2 id="certificates" class="h3 hr-bottom">
       {{ strings.resume.certificates | default:"Certificates" }}
-        <span class="symbol icon-badge"></span>
+      <span class="symbol {{ icons.certificates | default:'icon-badge' }}"></span>
     </h2>
   
     {% for cert in resume.certificates %}

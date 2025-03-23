@@ -1,15 +1,11 @@
 .icon-tryhackme {
   display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-
-  /* Makes the icon match the text color (great for light/dark themes) */
+  width: 1em;
+  height: 1em;
   background-color: currentColor;
+  vertical-align: text-bottom;
 
-  /* Rounded square style */
-  border-radius: 6px;
-
-  /* SVG cutout mask */
+  /* Mask settings if still using a mask */
   -webkit-mask-image: url('/assets/img/tryhackme.svg');
   mask-image: url('/assets/img/tryhackme.svg');
 
@@ -19,16 +15,12 @@
   -webkit-mask-position: center;
   mask-position: center;
 
-  -webkit-mask-size: 60% 60%;
-  mask-size: 60% 60%;
+  -webkit-mask-size: contain;
+  mask-size: contain;
 
-  /* Invert the mask: make the SVG shape transparent, rest visible */
-  -webkit-mask-composite: xor;     /* For Safari and Chromium-based browsers */
-  mask-composite: exclude;         /* For Firefox */
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
 
   -webkit-mask-type: luminance;
   mask-type: luminance;
-
-  /* Align with other icons */
-  vertical-align: middle;
 }

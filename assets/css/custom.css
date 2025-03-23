@@ -1,24 +1,10 @@
-/* === General icon consistency === */
-.icon-tryhackme-svg {
-  width: 1.2em;
-  height: 1.2em;
+.icon-tryhackme {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url('/assets/img/tryhackme.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
   vertical-align: middle;
-  opacity: 0.85;
-  transition: opacity 0.2s ease;
-}
-
-/* Hover effect to match other icons */
-.sidebar-social a:hover .icon-tryhackme-svg {
-  opacity: 1;
-}
-
-/* === White box styling with rounded corners === */
-.icon-tryhackme-svg rect {
-  rx: 4px; /* Rounded corners – adjust to 50% if you want a circle */
-}
-
-/* === Optional centering tweak for cutout alignment === */
-/* Adjust if your logo cutout looks off-center */
-.icon-tryhackme-svg rect {
-  transform: translate(0.5px, 0.5px); /* Tweak values as needed */
+  filter: brightness(0) invert(1); /* Optional: for white icon in dark mode */
 }

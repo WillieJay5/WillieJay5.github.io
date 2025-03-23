@@ -1,30 +1,36 @@
-{% if resume.certificates %}
-  <section class="resume-section">
-    <header>
-      <h2 class="section-title">Certificates</h2>
-    </header>
-    <div class="resume-list">
-      {% for cert in resume.certificates %}
-        <section class="resume-item">
-          <header class="resume-item-header">
-            <h3 class="resume-item-title">{{ cert.name }}</h3>
-            <span class="resume-item-date">
-              {% if cert.date %}{{ cert.date | date: "%b %Y" }}{% endif %}
-            </span>
-          </header>
-          <div class="resume-item-details">
-            <span class="resume-item-subtitle">{{ cert.issuer }}</span>
-            {% if cert.summary %}
-              <p class="note p-note" property="description">
-                {{ cert.summary | markdownify | replace:'<p>','' | replace:'</p>','' }}
-              </p>
-            {% endif %}
-            {% if cert.url %}
-              <p><a href="{{ cert.url }}" target="_blank">View Certificate</a></p>
-            {% endif %}
-          </div>
-        </section>
-      {% endfor %}
-    </div>
-  </section>
+{% if resume.certificates.size > 0 %}
+<section>
+  <div class="npb">
+    <h2 id="certificates" class="h3 hr-bottom">
+      {{ strings.resume.certificates | default:"Certificates" }}
+      <span class="symbol {{ icons.certificates | default:'icon-certificate' }}"></span>
+    </h2>
+  
+    {% for cert in resume.certificates %}
+    <section>
+      <header class="{% unless forloop.first %}mt2{% endunless %}">
+        {% if cert.date %}
+          <p class="faded">
+            {{ cert.date | date: from_to_format }}
+          </p>
+        {% endif %}
+        <h3 class="h4 faded">
+          <span class="bc">{{ cert.name }}</span>
+          <span class="bc">from {{ cert.issuer }}</span>
+        </h3>
+      </header>
+
+      {% if cert.summary %}
+        <p class="note p-note" property="description">
+          {{ cert.summary | markdownify | replace:'<p>','' | replace:'</p>','' }}
+        </p>
+      {% endif %}
+
+      {% if cert.url %}
+        <p><a href="{{ cert.url }}" target="_blank">View Certificate</a></p>
+      {% endif %}
+    </section>
+    {% if forloop.first %}</div>{% endif %}
+    {% endfor %}
+</section>
 {% endif %}

@@ -133,7 +133,7 @@ resume:
   download_pdf:        PDF
   download_vcf:        vCard
   download_json:       JSON
-  certificates: "Certificates"
+  certificates:        Certificates
 
   icons:
     fallback:          icon-link
@@ -153,4 +153,4 @@ resume:
     languages:         icon-bubbles
     skills:            icon-wrench
     interests:         icon-heart
-    certificates:      icon-ribbon
+    certificates:      icon-badge

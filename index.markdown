@@ -16,9 +16,6 @@ featured: false
 
 _Solving technical problems, supporting users, and launching my career in IT._
 
-[**View My Resume**](./resume)  
-[**Explore My Projects**](./projects)
-
 ---
 
 ## About Me

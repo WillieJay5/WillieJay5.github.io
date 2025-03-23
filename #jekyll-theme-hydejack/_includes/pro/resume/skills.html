@@ -52,6 +52,11 @@
           </ul>
         </div>
         {% endif %}
+        {% if skl.summary %}
+          <p class="note p-note">
+            {{ skl.summary | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+          </p>
+        {% endif %}
       </dd>
     {% endfor %}
   </dl>

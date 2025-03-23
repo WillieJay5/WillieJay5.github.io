@@ -26,6 +26,11 @@
           | replace:"<!--gpa-->", gpa
         }}
       </h3>
+      {% if edu.summary %}
+        <p class="note p-note">
+          {{ edu.summary | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+        </p>
+      {% endif %}
     </header>
 
     {% if edu.courses.size > 0 %}

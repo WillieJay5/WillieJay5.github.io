@@ -31,7 +31,11 @@
 
 <li>
   <a href="{{ url }}" title="{{ name }}" class="no-mark-external">
-    <span class="{{ icon }}"></span>
+    {% if platform == "tryhackme" %}
+      <span class="icon-tryhackme"></span>
+    {% else %}
+      <span class="{{ icon }}"></span>
+    {% endif %}
     <span class="sr-only">{{ name }}</span>
   </a>
 </li>

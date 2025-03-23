@@ -2,9 +2,14 @@
   display: inline-block;
   width: 1em;
   height: 1em;
-  background-image: url('/assets/img/tryhackme.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-color: currentColor; /* Fill of the shape */
+  -webkit-mask-image: url('/assets/img/tryhackme-mask.svg');
+  mask-image: url('/assets/img/tryhackme-mask.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
   vertical-align: middle;
-  filter: brightness(0) invert(1); /* Optional: for white icon in dark mode */
 }

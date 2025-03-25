@@ -96,6 +96,7 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 - 7-Zip
 
 ### 3.1 Install Chocolatey
+run this script as administrator
 ~~~powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12

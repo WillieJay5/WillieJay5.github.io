@@ -110,3 +110,18 @@ choco install googlechrome zoom slack notepadplusplus 7zip -y
 
 run chocolatey to install needed apps
 {:.figcaption}
+
+## Final Testing
+- Logged in as `j.doe` to validate user setup
+- Verified access to installed apps
+- Confirmed lack of admin privileges
+- Confirmed smooth desktop experience
+
+## Deployment Summary
+Deployment Log - March 24,2025
+Workstation `APEX-WKS-DESIGN01` configured and tested for user Jordan Doe.
+Applications Installed, user profile created, and VM snapchot saved.
+System ready for handoff.
+- Deployed by: Gage Neumaier
+- Role IT Support Technician
+- Time to Complete: ~45 Minutes

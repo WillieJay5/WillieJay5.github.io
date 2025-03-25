@@ -3,7 +3,7 @@ title: "Windows Workstation Setup – Apex Design Co."
 date: 2025-03-24
 tags: [it-support, help-desk, windows, chocolatey, virtual-machine]
 author: Your Name
-layout: post
+layout: project 
 excerpt: "End-to-end deployment of a Windows virtual machine, simulating a Help Desk scenario at a small design company."
 ---
 

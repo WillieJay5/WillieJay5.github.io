@@ -63,7 +63,7 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 - Skip Microsoft account → use Offline Account
 - Apply latest updates
 
-**📸 Screenshot:** *Windows desktop after clean install*
+![Initial Deployment](/assets/images/apex-design-co/deployment/clean-install.jpg)
 
 ---
 
@@ -80,7 +80,7 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 3. Name: `j.doe`
 4. Set account type to **Standard User**
 
-**📸 Screenshot:** *User list showing ApexAdmin and j.doe*
+![User Creation](/assets/apex-design-co/deployment/user-account-creation.jpg)
 
 ---
 
@@ -110,6 +110,11 @@ choco install googlechrome zoom slack notepadplusplus 7zip -y
 
 run chocolatey to install needed apps
 {:.figcaption}
+
+![App Installation](/assets/apex-design-co/deployment/chocolatey-deployment.jpg)
+
+Chrome installation failed so I had to install manually
+{:.note}
 
 ## Final Testing
 - Logged in as `j.doe` to validate user setup

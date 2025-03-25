@@ -100,3 +100,4 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 Set-ExecutionPolicy Bypass -Scope Process -Force
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+~~~

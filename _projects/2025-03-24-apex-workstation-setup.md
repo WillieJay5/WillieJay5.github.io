@@ -69,7 +69,7 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 
 ---
 
-## 👤 Step 2 – User Account Creation
+## Step 2 – User Account Creation
 
 ### 2.1 Create Standard User
 - Admin Account: `ApexAdmin`
@@ -86,7 +86,7 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 
 ---
 
-## 📦 Step 3 – Install Company Software (via Chocolatey)
+## Step 3 – Install Company Software (via Chocolatey)
 
 ### Software List:
 - Google Chrome
@@ -96,7 +96,7 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 - 7-Zip
 
 ### 3.1 Install Chocolatey
-```powershell
+~~~powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))

@@ -56,8 +56,6 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
   - 4 GB RAM
   - Enable 3D acceleration
 
-**📸 Screenshot:** *New VM settings in VMware*
-
 ### 1.3 Install Windows
 - Follow Windows installer prompts
 - Create local admin account: `ApexAdmin`
@@ -102,3 +100,13 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ~~~
+
+install chocolatey
+{:.figcaption}
+
+~~~powershell
+choco install googlechrome zoom slack notepadplusplus 7zip -y
+~~~
+
+run chocolatey to install needed apps
+{:.figcaption}

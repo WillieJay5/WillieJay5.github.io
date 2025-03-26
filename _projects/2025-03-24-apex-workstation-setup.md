@@ -69,7 +69,10 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 - Skip Microsoft account → use Offline Account
 - Apply latest updates
 
-![Initial Deployment](/assets/images/apex-design-co/deployment/clean-install.jpeg)
+<figure>
+  <img src="/assets/images/apex-deployment/clean-install.jpeg" alt="Workstation Setup Screenshot">
+  <figcaption>Workstation after initial setup</figcaption>
+</figure>
 
 ---
 
@@ -86,7 +89,12 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 3. Name: `j.doe`
 4. Set account type to **Standard User**
 
-![User Creation](/assets/apex-design-co/deployment/user-account-creation.jpeg)
+<figure>
+  <img src="/assets/apex-design-co/deployment/user-account-creation.jpeg" alt="User Deployment">
+  <figcaption>Showcase of successful user deployment</figcaption>
+</figure>
+
+![User Creation]()
 
 ---
 
@@ -117,7 +125,10 @@ choco install googlechrome zoom slack notepadplusplus 7zip -y
 run chocolatey to install needed apps
 {:.figcaption}
 
-![App Installation](/assets/apex-design-co/deployment/chocolatey-deployment.jpeg)
+<figure>
+  <img src="/assets/apex-design-co/deployment/user-account-creation.jpeg" alt="App Installation">
+  <figcaption>Successful deployment after User account creation</figcaption>
+</figure>
 
 Chrome installation failed so I had to install manually
 {:.note}

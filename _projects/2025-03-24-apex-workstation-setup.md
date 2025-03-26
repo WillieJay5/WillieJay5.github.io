@@ -66,7 +66,7 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 - Follow Windows installer prompts
   - Select "I don't have a product key" (skips activation for lab use)
   - Windows 10 Pro
-  - custom installation
+  - Custom Installation
 - Create local admin account: `ApexAdmin`
 - Set PC name to: `APEX-WKS-DESIGN01`
 - Skip Microsoft account → use Offline Account

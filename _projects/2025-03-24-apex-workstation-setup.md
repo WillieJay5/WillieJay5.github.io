@@ -70,7 +70,7 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 - Apply latest updates
 
 <figure>
-  <img src="/assets/images/apex-deployment/clean-install.jpeg" alt="Workstation Setup Screenshot">
+  <img src="/assets/images/apex-deployment/clean-install.JPG" alt="Workstation Setup Screenshot">
   <figcaption>Workstation after initial setup</figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 4. Set account type to **Standard User**
 
 <figure>
-  <img src="/assets/apex-design-co/deployment/user-account-creation.jpeg" alt="User Deployment">
+  <img src="/assets/apex-design-co/deployment/user-account-creation.JPG" alt="User Deployment">
   <figcaption>Showcase of successful user deployment</figcaption>
 </figure>
 
@@ -126,7 +126,7 @@ run chocolatey to install needed apps
 {:.figcaption}
 
 <figure>
-  <img src="/assets/apex-design-co/deployment/user-account-creation.jpeg" alt="App Installation">
+  <img src="/assets/apex-design-co/deployment/user-account-creation.JPG" alt="App Installation">
   <figcaption>Successful deployment after User account creation</figcaption>
 </figure>
 

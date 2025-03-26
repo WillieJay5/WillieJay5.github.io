@@ -9,8 +9,8 @@ image:
   path: /assets/apex-design-co/apex-design-co.jpeg
   srcset:
     1920w: /assets/apex-design-co/apex-design-co.jpeg
-    960w: /assets/apex-design-co/apex-design-co@0.5.jpeg
-    480w: /assets/apex-design-co/apex-design-co@0.25.jpeg
+    960w: /assets/apex-design-co/apex-design-co@0,5x.jpeg
+    480w: /assets/apex-design-co/apex-design-co@0,25x.jpeg
 ---
 
 ## Scenario: Apex Design Co. Onboarding
@@ -70,8 +70,8 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 - Apply latest updates
 
 <figure>
-  <img src="/assets/images/apex-design-co/deployment/clean-install.JPG" alt="Workstation Setup Screenshot">
-  <figcaption>Workstation after initial setup</figcaption>
+  <img src="/assets/apex-design-co/deployment/clean-install.JPG" alt="Workstation Setup Screenshot">
+  <figcaption>Workstation After Initial Setup</figcaption>
 </figure>
 
 ---
@@ -93,8 +93,6 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
   <img src="/assets/apex-design-co/deployment/user-account-creation.JPG" alt="User Deployment">
   <figcaption>Showcase of successful user deployment</figcaption>
 </figure>
-
-![User Creation]()
 
 ---
 
@@ -126,7 +124,7 @@ run chocolatey to install needed apps
 {:.figcaption}
 
 <figure>
-  <img src="/assets/apex-design-co/deployment/chocoloatey-deployment.JPG" alt="App Installation">
+  <img src="/assets/apex-design-co/deployment/chocolatey-deployment.JPG" alt="App Installation">
   <figcaption>Successful App Deployment</figcaption>
 </figure>
 

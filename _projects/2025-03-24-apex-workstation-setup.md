@@ -104,7 +104,23 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 
 ---
 
-## Step 3 – Install Company Software (via Chocolatey)
+## Step 3 – Install VMware Tools (Guest Additions)
+
+To improve performance, resolution scaling, and enable clipboard/file drag-and-drop between host and VM, install VMware Tools.
+
+### 3.1 Launch VMware Tools Installer
+- In **VMware Workstation Player**, go to the top menu:
+  - `Player → Manage → Install VMware Tools`
+- This will mount a virtual CD inside the VM as **Drive D:**
+
+### 3.2 Run the Installer in the VM
+- Open **File Explorer**
+- Navigate to **D:\**
+- Double-click `setup.exe` to launch the VMware Tools installer
+- Follow the prompts to complete installation (Typical setup)
+- Reboot the VM when prompted
+
+## Step 4 – Install Company Software (via Chocolatey)
 
 ### Software List:
 - Google Chrome
@@ -113,7 +129,7 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 - Notepad++
 - 7-Zip
 
-### 3.1 Install Chocolatey
+### 4.1 Install Chocolatey
 run this script as administrator
 ~~~powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force

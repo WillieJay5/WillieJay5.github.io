@@ -62,6 +62,11 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
   - 4 GB RAM
   - Enable 3D acceleration
 
+<figure>
+  <img src="/assets/apex-design-co/deployment/VM-hardware.JPG" alt="Virtual Machine Settings">
+  <figcaption>Workstation Settings for Deployment</figcaption>
+</figure>
+
 ### 1.3 Install Windows
 - Follow Windows installer prompts
   - Select "I don't have a product key" (skips activation for lab use)

@@ -5,6 +5,11 @@ tags: [it-support, help-desk, windows, chocolatey, virtual-machine]
 author: Your Name
 layout: project 
 excerpt: "End-to-end deployment of a Windows virtual machine, simulating a Help Desk scenario at a small design company."
+image: path:/assets/apex-design-co/apex-design-co.jpg
+  srcset:
+    1920w: /assets/apex-design-co/apex-design-co.jpg
+    960w: /assets/apex-design-co/apex-design-co@0.5.jpg
+    480w: /assets/apex-design-co/apex-design-co@0.25.jpg
 ---
 
 ## Scenario: Apex Design Co. Onboarding

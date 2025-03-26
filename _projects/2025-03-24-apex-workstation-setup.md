@@ -70,7 +70,7 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 - Apply latest updates
 
 <figure>
-  <img src="/assets/images/apex-deployment/clean-install.JPG" alt="Workstation Setup Screenshot">
+  <img src="/assets/images/apex-design-co/deployment/clean-install.JPG" alt="Workstation Setup Screenshot">
   <figcaption>Workstation after initial setup</figcaption>
 </figure>
 
@@ -126,8 +126,8 @@ run chocolatey to install needed apps
 {:.figcaption}
 
 <figure>
-  <img src="/assets/apex-design-co/deployment/user-account-creation.JPG" alt="App Installation">
-  <figcaption>Successful deployment after User account creation</figcaption>
+  <img src="/assets/apex-design-co/deployment/chocoloatey-deployment.JPG" alt="App Installation">
+  <figcaption>Successful App Deployment</figcaption>
 </figure>
 
 Chrome installation failed so I had to install manually

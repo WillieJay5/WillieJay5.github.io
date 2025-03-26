@@ -6,11 +6,11 @@ author: Gage Neumaier
 layout: project 
 excerpt: "End-to-end deployment of a Windows virtual machine, simulating a Help Desk scenario at a small design company."
 image: 
-  path: /assets/apex-design-co/apex-design-co.jpg
+  path: /assets/apex-design-co/apex-design-co.jpeg
   srcset:
-    1920w: /assets/apex-design-co/apex-design-co.jpg
-    960w: /assets/apex-design-co/apex-design-co@0.5.jpg
-    480w: /assets/apex-design-co/apex-design-co@0.25.jpg
+    1920w: /assets/apex-design-co/apex-design-co.jpeg
+    960w: /assets/apex-design-co/apex-design-co@0.5.jpeg
+    480w: /assets/apex-design-co/apex-design-co@0.25.jpeg
 ---
 
 ## Scenario: Apex Design Co. Onboarding
@@ -69,7 +69,7 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 - Skip Microsoft account → use Offline Account
 - Apply latest updates
 
-![Initial Deployment](/assets/images/apex-design-co/deployment/clean-install.jpg)
+![Initial Deployment](/assets/images/apex-design-co/deployment/clean-install.jpeg)
 
 ---
 
@@ -86,7 +86,7 @@ Apex is onboarding a new in-office graphic designer, *Jordan Doe*. As the Help D
 3. Name: `j.doe`
 4. Set account type to **Standard User**
 
-![User Creation](/assets/apex-design-co/deployment/user-account-creation.jpg)
+![User Creation](/assets/apex-design-co/deployment/user-account-creation.jpeg)
 
 ---
 
@@ -117,7 +117,7 @@ choco install googlechrome zoom slack notepadplusplus 7zip -y
 run chocolatey to install needed apps
 {:.figcaption}
 
-![App Installation](/assets/apex-design-co/deployment/chocolatey-deployment.jpg)
+![App Installation](/assets/apex-design-co/deployment/chocolatey-deployment.jpeg)
 
 Chrome installation failed so I had to install manually
 {:.note}

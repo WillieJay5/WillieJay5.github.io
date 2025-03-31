@@ -65,14 +65,14 @@ path = /home/gage
 writable = yes
 browseable = yes
 guest ok = no
-valid users = sambauser
+valid users = gage #make sure to match your samba user
 ```
 
 Create system user and set Samba password:
 
 ```bash
-sudo adduser sambauser
-sudo smbpasswd -a sambauser
+sudo adduser gage #or whaterver username you want
+sudo smbpasswd -a gage
 ```
 
 Set folder permissions:

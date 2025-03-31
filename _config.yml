@@ -69,6 +69,8 @@ collections:
     permalink: /_homelab/:title/
     output:    true
 
+favicon: /favicon.ico
+apple_touch_icon: /assets/icons/icon-72x72.png
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -49,8 +49,8 @@ menu:
     url:   /
   - title: About
     url:   /about/
-  - title: Guides
-    url:   /guides/
+  - title: Home Lab
+    url:   /homelab/
   - title: Projects
     url:   /projects/
   - title: Resume
@@ -62,12 +62,12 @@ theme: jekyll-theme-hydejack
 #Project settings
 collections:
   projects:
-    permalink: /projects/:path/
+    permalink: /_projects/:path/
     output:    true
-  guides:
+  homelab:
     # Make sure the permalink path is different!
-    permalink:         /guides/:path/
-    output:            true
+    permalink: /_homelab/:title/
+    output:    true
 
 
 # Exclude from processing.

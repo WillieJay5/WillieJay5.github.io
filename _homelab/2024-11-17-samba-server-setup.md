@@ -61,25 +61,25 @@ Edit `/etc/samba/smb.conf` to add a custom share:
 
 ```ini
 [Home Lab]
-path = /home/gage
+path = path/to/share
 writable = yes
 browseable = yes
 guest ok = no
-valid users = gage # make sure to match your samba user
+valid users = username # make sure to match your samba user
 ```
 
 Create system user and set Samba password:
 
 ```bash
-sudo adduser gage # or whaterver username you want
-sudo smbpasswd -a gage
+sudo adduser username # or whaterver username you want
+sudo smbpasswd -a username
 ```
 
 Set folder permissions:
 
 ```bash
-sudo chown gage:gage /home/gage
-sudo chmod 770 /home/gage
+sudo chown username:username path/to/share
+sudo chmod 770 path/to/share
 ```
 
 ---
@@ -100,7 +100,7 @@ sudo ufw enable
 On the Windows client:
 
 1. Press `Win + R` → type `\\<server-ip>\Home Lab`  
-2. Enter Samba credentials (`gage`)  
+2. Enter Samba credentials (`<username>`)  
 3. Confirm read/write access
 
 ---

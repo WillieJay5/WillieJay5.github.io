@@ -5,12 +5,7 @@ tags: [ssh, debian, security, linux, openssh]
 author: Gage Neumaier
 layout: project
 excerpt: "Configured SSH key-based authentication on a Debian 12 server to enhance remote access security from a Windows client. Password login was disabled after successful setup."
-image:
-  path: /assets/homelab/ssh/ssh-logo.png
-  srcset:
-    1920w: /assets/homelab/ssh/ssh-logo.png
-    960w: /assets/homelab/ssh/ssh-logo@0.5x.png
-    480w: /assets/homelab/ssh/ssh-logo@0.25x.png
+image: /assets/homelab/ssh/ssh-icon.svg
 ---
 
 ## Scenario: Securing Remote Access to Home Server

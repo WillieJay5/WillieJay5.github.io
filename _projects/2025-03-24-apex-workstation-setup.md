@@ -11,6 +11,7 @@ image:
     1920w: /assets/apex-design-co/apex-design-co.jpeg
     960w: /assets/apex-design-co/apex-design-co@0,5x.jpeg
     480w: /assets/apex-design-co/apex-design-co@0,25x.jpeg
+featured: true
 ---
 
 ## Scenario: Apex Design Co. Onboarding

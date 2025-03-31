@@ -6,10 +6,11 @@ layout: welcome
 title: Welcome
 cover: true
 permalink: /
+featured: true
 selected_projects:
-  - /projects/example/
-projects_page: projects.md
-featured: false
+- /_projects/2025-03-24-apex-workstation-setup/
+projects_page: /projects/
+homelab_page: /homelab/
 ---
 
 # Hi, I’m Gage – Aspiring IT Help Desk Technician
@@ -35,9 +36,14 @@ I'm Gage Neumaier, an aspiring IT Help Desk Technician with hands-on experience 
 - Python & PowerShell for automation
 
 ---
+## Help Desk Showcase
 
-## Projects Showcase
 <!--projects-->
+
+---
+## Home Lab Showcase
+
+<!--homelab-->
 
 ---
 

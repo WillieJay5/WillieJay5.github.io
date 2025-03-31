@@ -49,10 +49,10 @@ menu:
     url:   /
   - title: About
     url:   /about/
-  - title: Home Lab
-    url:   /homelab/
-  - title: Projects
+  - title: Help Desk Projects
     url:   /projects/
+  - title: Home Lab Projects
+    url:   /homelab/
   - title: Resume
     url:   /resume/
 

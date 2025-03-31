@@ -6,6 +6,7 @@ author: Gage Neumaier
 layout: project
 excerpt: "Configured a WireGuard VPN server on Debian 12 to securely access home lab services such as SSH and Samba from external networks."
 image: /assets/homelab/wireguard/wireguard-logo.svg
+featured: true
 ---
 
 ## Scenario: Secure Remote Access to Home Lab

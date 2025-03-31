@@ -11,6 +11,7 @@ image:
     1920w: /assets/homelab/samba/samba-logo.png
     960w: /assets/homelab/samba/samba-logo@0.5x.png
     480w: /assets/homelab/samba/samba-logo@0.25x.png
+featured: true
 ---
 
 ## Scenario: Home Lab File Sharing

@@ -70,6 +70,43 @@ layout: about
 {% assign content = content | replace:"<!--projects-->", projects_x %}
 {% endif %}
 
+{% if content contains "<!--homelab-->" %}
+{% capture homelab_x %}
+{% if site.homelab.size > 0 %}
+  <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
+    {% assign ordered_homelab = site.homelab | sort: "date" | reverse %}
+    {% for project in ordered_homelab limit:2 %}
+      {% assign featured = page.featured | default:project.featured | default:page.big_project | default:project.big_project %}
+      <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
+        {% include_cached pro/project-card.html project=project featured=featured %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% assign homelab_page = page.homelab_page | default:page.more_projects %}
+{% if homelab_page %}
+  {% if major >= 4 and minor >= 1 %}
+    {% assign more_homelab = nodes | find_exp:"page", "homelab_page == page.path or homelab_page == page.url" %}
+  {% else %}
+    {% assign more_homelab = nodes | where_exp:"page", "homelab_page == page.path" | first %}
+    {% unless more_homelab %}{% assign more_homelab = nodes | where_exp:"page", "homelab_page == page.url" | first %}{% endunless %}
+  {% endif %}
+
+  {% if more_homelab %}
+    {% capture homelab_title %}<a class="heading flip-title" href="{{ more_homelab.url | relative_url }}">{{ more_homelab.title }}</a>{% endcapture %}
+    {% assign text = strings.welcome.more_projects | default:"See <!--projects_title--> for more" %}
+    <p class="read-more mt1">
+      {{ text | replace:"<!--projects_title-->", homelab_title }}
+    </p>
+  {% else %}
+    Page with path <code>{{ homelab_page }}</code> not found.
+  {% endif %}
+{% endif %}
+{% endcapture %}
+{% assign content = content | replace:"<!--homelab-->", homelab_x %}
+{% endif %}
+
 {% if content contains "<!--posts-->" %}
 {% capture posts_x %}
 {% if page.selected_posts %}

@@ -13,7 +13,7 @@ projects_page: /projects/
 homelab_page: /homelab/
 ---
 
-# Hi, I’m Gage – Aspiring IT Help Desk Technician
+# Hello, World!
 
 _Solving technical problems, supporting users, and launching my career in IT._
 

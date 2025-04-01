@@ -7,11 +7,11 @@
     "website": "https://williejay5.github.io",
     "summary": "Aspiring IT Support Technician with a strong foundation in troubleshooting, system administration, and network support through home lab experience, certifications, and hands-on training. Passionate about helping users solve technical issues while continuously expanding knowledge in Windows, Linux, networking, and cybersecurity. Adept at translating complex technical problems into simple solutions and committed to providing excellent customer service. Eager to bring problem-solving skills, technical knowledge, and a proactive mindset to a professional IT environment.",
     "location": {
-      "address": "6745 Schroeder Rd",
-      "postalCode": "WI 53711",
+      "postalCode": "53711",
       "city": "Madison",
+      "state": "WI", 
       "countryCode": "US",
-      "region": "Wisconsin"
+      "region": "WI"
     },
     "profiles": [
       {
@@ -68,7 +68,6 @@
   "skills": [
     {
       "name": "Security Operations & Threat Monitoring",
-      "level": "Intermediate",
       "keywords": [
         "SIEM (Splunk)",
         "IDS/IPS (Suricata)",
@@ -83,7 +82,6 @@
     },
     {
       "name": "Network Security & Protocols",
-      "level": "Intermediate",
       "keywords": [
         "TCP/IP",
         "UDP",
@@ -100,7 +98,6 @@
     },
     {
       "name": "Operating Systems",
-      "level": "Intermediate",
       "keywords": [
         "Windows",
         "Linux (Kali, Debian 12, Ubuntu)",
@@ -110,7 +107,6 @@
     },
     {
       "name": "Digital Forensics & Incident Handling",
-      "level": "Intermediate",
       "keywords": [
         "Memory & Disk Analysis (FTK Imager, Autopsy)",
         "Log File Investigation",
@@ -122,7 +118,6 @@
     },
     {
       "name": "Programming & Automation",
-      "level": "Intermediate",
       "keywords": [
         "Python",
         "Bash",
@@ -135,7 +130,6 @@
     },
     {
       "name": "Cloud Security & Virtualization",
-      "level": "Beginner",
       "keywords": [
         "AWS Security",
         "Windows Server Security Policies",
@@ -150,17 +144,9 @@
       "keywords": [
         "Home Lab Projects",
         "Linux Server Administration",
-        "Game Server Hosting",
         "Media Streaming Servers",
         "Virtualization",
         "Firewall Configuration"
-      ]
-    },
-    {
-      "name": "Fitness & Outdoors",
-      "keywords": [
-        "Weight Training",
-        "Hiking"
       ]
     }
   ]

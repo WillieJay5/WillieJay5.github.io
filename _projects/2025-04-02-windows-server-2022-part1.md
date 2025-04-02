@@ -9,11 +9,12 @@ tags: [windows-server, active-directory, vmware, home-lab, help-desk, gpo]
 excerpt: >
   Step-by-step walkthrough for setting up a Windows Server 2022 Evaluation VM using VMware Workstation Pro. This lab sets the foundation for building an Active Directory domain controller with GPO support for help desk training.
 image: 
-  path: /assets/apex-design-co/apex-design-co.jpeg
+  path: /assets/img/windows.jpg
   srcset:
-    1920w: /assets/apex-design-co/apex-design-co.jpeg
-    960w: /assets/apex-design-co/apex-design-co@0,5x.jpeg
-    480w: /assets/apex-design-co/apex-design-co@0,25x.jpeg
+    1920w: /assets/img/windows.jpg
+    960w: /assets/img/windows@0.5x.jpg
+    480w: /assets/img/windows@0.25x.jpg
+featured: true
 ---
 
 
@@ -166,8 +167,6 @@ At this point, your VM should:
 - Have a static IP address (e.g., `192.168.100.10`)
 - Be up to date
 - Have VMware Tools installed
-
-You're now ready to begin installing roles like Active Directory Domain Services (AD DS) in **Part 2**.
 
 ---
 

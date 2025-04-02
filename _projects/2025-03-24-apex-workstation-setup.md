@@ -6,12 +6,12 @@ author: Gage Neumaier
 layout: project 
 excerpt: "End-to-end deployment of a Windows virtual machine, simulating a Help Desk scenario at a small design company."
 image: 
-  path: /assets/apex-design-co/apex-design-co.jpeg
+  path: /assets/img/windows.jpg
   srcset:
-    1920w: /assets/apex-design-co/apex-design-co.jpeg
-    960w: /assets/apex-design-co/apex-design-co@0,5x.jpeg
-    480w: /assets/apex-design-co/apex-design-co@0,25x.jpeg
-featured: true
+    1920w: /assets/img/windows.jpg
+    960w: /assets/img/windows@0.5x.jpg
+    480w: /assets/img/windows@0.25x.jpg
+featured: false
 ---
 
 ## Scenario: Apex Design Co. Onboarding

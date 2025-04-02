@@ -4,8 +4,9 @@ subtitle: "Promoting a Server to a Domain Controller and Deploying ISO 27001-Ali
 author: [Gage Neumaier]
 date: 2025-04-02
 updated: 2025-04-02
-layout: project
-tags: [windows-server, active-directory, gpo, iso27001, domain-controller, help-desk-lab]
+layout: post
+categories: [help-desk, windows]
+tags: [windows-server, active-directory, gpo, iso27001, domain-controller]
 excerpt: >
   In this part of the lab series, we promote our Windows Server 2022 VM to a domain controller, build an organizational structure with users and groups, and configure ISO 27001-aligned Group Policy Objects (GPOs) to simulate a secure, help desk-ready AD environment.
 image: 

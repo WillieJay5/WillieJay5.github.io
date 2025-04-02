@@ -4,7 +4,8 @@ subtitle: "Deploying and configuring a Windows Server 2022 VM in preparation for
 author: [Gage Neumaier]
 date: 2025-04-02
 updated: 2025-04-02
-layout: project
+layout: post
+categories: [help-desk, windows]
 tags: [windows-server, active-directory, vmware, home-lab, help-desk, gpo]
 excerpt: >
   Step-by-step walkthrough for setting up a Windows Server 2022 Evaluation VM using VMware Workstation Pro. This lab sets the foundation for building an Active Directory domain controller with GPO support for help desk training.

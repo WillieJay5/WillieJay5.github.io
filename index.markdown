@@ -7,9 +7,7 @@ title: Welcome
 cover: true
 permalink: /
 featured: true
-selected_projects:
-- /_projects/2025-03-24-apex-workstation-setup/
-projects_page: /projects/
+posts_page: /help-desk-projects/
 homelab_page: /homelab/
 ---
 
@@ -38,7 +36,7 @@ I'm Gage Neumaier, an aspiring IT Help Desk Technician with hands-on experience 
 ---
 ## Help Desk Showcase
 
-<!--projects-->
+<!--posts-->
 
 ---
 ## Home Lab Showcase

@@ -1,9 +1,10 @@
 ---
 title: "Windows Workstation Setup – Apex Design Co."
 date: 2025-03-24
-tags: [it-support, help-desk, windows, chocolatey, virtual-machine]
 author: Gage Neumaier
-layout: project 
+layout: post
+categories: [help-desk, Windows]
+tags: [it-support, help-desk, windows, chocolatey, virtual-machine]
 excerpt: "End-to-end deployment of a Windows virtual machine, simulating a Help Desk scenario at a small design company."
 image: 
   path: /assets/img/windows.jpg

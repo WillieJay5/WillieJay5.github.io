@@ -6,6 +6,7 @@ author: Gage Neumaier
 layout: project
 excerpt: "Configured SSH key-based authentication on a Debian 12 server to enhance remote access security from a Windows client. Password login was disabled after successful setup."
 image: /assets/homelab/ssh/ssh-icon.svg
+featured: false
 ---
 
 ## Scenario: Securing Remote Access to Home Server

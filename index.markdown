@@ -6,9 +6,9 @@ layout: welcome
 title: Welcome
 cover: true
 permalink: /
-featured: true
 posts_page: /help-desk-projects/
-homelab_page: /homelab/
+projects_page: /projects/
+featured: true
 ---
 
 # Hello, World!
@@ -31,7 +31,7 @@ I'm Gage Neumaier, an aspiring IT Help Desk Technician with hands-on experience 
 - Microsoft 365 & Active Directory  
 - Network Troubleshooting (DNS, DHCP, VPN)  
 - End-User Support & Ticketing Systems  
-- Python & PowerShell for automation
+- Python & PowerShell for Automation
 
 ---
 ## Help Desk Showcase
@@ -41,7 +41,7 @@ I'm Gage Neumaier, an aspiring IT Help Desk Technician with hands-on experience 
 ---
 ## Home Lab Showcase
 
-<!--homelab-->
+<!--projects-->
 
 ---
 

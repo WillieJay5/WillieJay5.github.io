@@ -11,6 +11,7 @@ image:
     1920w: /assets/homelab/plex/plex-logo.jpg
     960w: /assets/homelab/plex/plex-logo@0.5x.jpg
     480w: /assets/homelab/plex/plex-logo@0.25x.jpg
+featured: false
 ---
 
 ## Scenario: Local Media Streaming in the Home Lab

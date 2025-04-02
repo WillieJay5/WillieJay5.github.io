@@ -11,6 +11,7 @@ image:
     1920w: /assets/homelab/ddns/ddns-logo.png
     960w: /assets/homelab/ddns/ddns-logo@0.5x.png
     480w: /assets/homelab/ddns/ddns-logo@0.25x.png
+featured: false
 ---
 
 ## Scenario: Public Access to Select Home Lab Services

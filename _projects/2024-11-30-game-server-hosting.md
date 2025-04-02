@@ -11,6 +11,7 @@ image:
     1920w: /assets/homelab/game-server/valheim-logo.png
     960w: /assets/homelab/game-server/valheim-logo@0.5x.png
     480w: /assets/homelab/game-server/valheim-logo@0.25x.png
+featured: false
 ---
 
 ## Scenario: Hosting Multiplayer Games from My Home Lab

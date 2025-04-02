@@ -52,7 +52,7 @@ menu:
   - title: Help Desk Projects
     url:   /help-desk-projects/
   - title: Home Lab Projects
-    url:   /homelab/
+    url:   /projects/
   - title: Resume
     url:   /resume/
 
@@ -63,10 +63,10 @@ theme: jekyll-theme-hydejack
 collections:
   posts:
     output: true
-    permalink: /_posts/:title/
-  homelab:
+    permalink: /projects/:title/
+  projects:
     # Make sure the permalink path is different!
-    permalink: /_homelab/:title/
+    permalink: /projects/:title/
     output:    true
 
 favicon: /favicon.ico

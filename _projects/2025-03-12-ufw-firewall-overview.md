@@ -11,6 +11,7 @@ image:
     1920w: /assets/homelab/firewall/ufw-logo.png
     960w: /assets/homelab/firewall/ufw-logo@0.5x.png
     480w: /assets/homelab/firewall/ufw-logo@0.25x.png
+featued: false
 ---
 
 ## Scenario: Network Hardening with UFW

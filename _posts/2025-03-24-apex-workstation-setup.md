@@ -165,9 +165,10 @@ Chrome installation failed so I had to install manually
 
 ## Deployment Summary
 Deployment Log - March 24,2025
-Workstation `APEX-WKS-DESIGN01` configured and tested for user Jordan Doe.
-Applications Installed, user profile created, and VM snapchot saved.
-System ready for handoff.
+
+- Workstation `APEX-WKS-DESIGN01` configured and tested for user Jordan Doe.
+- Applications Installed, user profile created, and VM snapchot saved.
+- System ready for handoff.
 - Deployed by: Gage Neumaier
 - Role IT Support Technician
 - Time to Complete: ~45 Minutes

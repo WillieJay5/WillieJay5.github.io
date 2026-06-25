@@ -48,14 +48,20 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Home
-    url:               /
   - title:             About
     url:               /about/
-  - title:             Help Desk Projects
-    url:               /help-desk-projects/
-  - title:             Home Lab Projects
-    url:               /projects/
+  - title:             Threat Model
+    url:               /threat-model/
+  - title:             Lab Architecture
+    url:               /lab-architecture/
+  - title:             Network Security
+    url:               /network-security/
+  - title:             Platform Security
+    url:               /platform-security/
+  - title:             Detection Engineering
+    url:               /detection-engineering/
+  - title:             Incident Response
+    url:               /incident-response/
   - title:             Resume
     url:               /resume/
 

@@ -1,0 +1,18 @@
+# The primary author of this site. Must match `author` in `_config.yml`.
+author1:
+  name:              Gage Neumaier
+  email:             gage.neumaier@gmail.com
+  about:             |
+    I'm Gage Neumaier, an aspiring IT Help Desk Technician with a strong foundation
+    in technical support, cybersecurity, and system administration. Through a hands-on
+    cybersecurity bootcamp and self-guided projects, I've developed practical skills in
+    Windows and Linux environments, Active Directory, network troubleshooting, and
+    Microsoft 365 support.
+
+    Open `_data/authors.yml` to edit this text.
+  picture:           /assets/img/me.jpg
+  # github and linkedin have built-in icons. TryHackMe does NOT — add it to `menu` if wanted.
+  social:
+    github:          WillieJay5
+    linkedin:        gage-neumaier-239ab21a5
+    email:           gage.neumaier@gmail.com

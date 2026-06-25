@@ -10,8 +10,6 @@ hide_description: true
 
 # About
 
-<!--author-->
-
 I'm an IT support technician moving into **defensive security** — detection
 engineering and SIEM, network and platform security, and incident response. This
 site documents that work through a hands-on homelab where I start from a threat

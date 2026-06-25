@@ -101,12 +101,12 @@ theme: jekyll-theme-hydejack
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_color:          '#7F8C4A'
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           '#23271C'
 
 # IMPORTANT:
 # As of Hydejack 9.2, Google Fonts are turned off by default due to a stronger focus on privacy.

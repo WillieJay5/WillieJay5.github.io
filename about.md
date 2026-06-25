@@ -43,7 +43,6 @@ Before and alongside the security work, I support users and systems day to day:
 - **Operating systems** — troubleshooting and administration across Windows and Linux.
 - **Identity & directory services** — user and group management in Active Directory.
 - **Networking** — diagnosing connectivity issues and the fundamentals beneath them.
-- **Microsoft 365** — supporting users across the M365 suite.
 
 This isn't a footnote — it's why the security work clicks. Defending an
 environment means knowing what *normal* looks like: how endpoints and users

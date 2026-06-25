@@ -3,13 +3,6 @@ author1:
   name:              Gage Neumaier
   email:             gage.neumaier@gmail.com
   about:
-  My name is Gage Neumaier, an IT support technician, building toward defensive
-  security — detection engineering and SIEM, network and platform security, and
-  incident response. I came up through hands-on technical support, Windows and
-  Linux administration, Active Directory, and a cybersecurity bootcamp, and I now
-  document my blue-team work in a homelab, designing from a threat model,
-  building the controls, then proving they hold.
-
   picture:           /assets/img/me.jpg
   # github and linkedin have built-in icons. TryHackMe does NOT — add it to `menu` if wanted.
   social:

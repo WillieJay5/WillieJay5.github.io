@@ -17,10 +17,7 @@ installed.
 
 ## Start here
 
-New to the site? Begin with the **[Lab Threat Model](/threat-model/)** — what the
-lab protects, who from, and what the blast radius is when a host is compromised.
-Every firewall rule and detection on this site traces back to it, so it's the
-fastest way to see how I think.
+New to the site? Begin with the **[Posts](/posts/)** — This is where all of my docuem
 
 ## What I work on
 
@@ -33,14 +30,14 @@ fastest way to see how I think.
 - **[Incident Response](/incident-response/)** — MITRE ATT&CK-mapped exercises,
   documented from first alert through containment and lessons learned.
 
-<!--
+
   LATEST WRITEUPS — uncomment this block once you have at least one published
   post, otherwise it renders an empty section under a heading.
 
 ## Latest writeups
 
 <!~~posts~~>
--->
+
 
 ## Let's connect
 

@@ -21,13 +21,13 @@ New to the site? Begin with the **[Posts](/posts/)** — This is where all of my
 
 ## What I work on
 
-- **[Detection Engineering](/detection-engineering/)** — building a Graylog SIEM
+- **Detection Engineering** — building a Graylog SIEM
   pipeline end to end: raw log, parsing rule, structured fields, tuned alert.
-- **[Network Security](/network-security/)** — segmentation and firewall design
+- **Network Security** — segmentation and firewall design
   driven by trust zones, plus an IDS sensor feeding the SIEM.
-- **[Platform Security](/platform-security/)** — host hardening and endpoint
+- **Platform Security** — host hardening and endpoint
   telemetry (Sysmon, auditd) with the rationale attached.
-- **[Incident Response](/incident-response/)** — MITRE ATT&CK-mapped exercises,
+- **Incident Response** — MITRE ATT&CK-mapped exercises,
   documented from first alert through containment and lessons learned.
 
 

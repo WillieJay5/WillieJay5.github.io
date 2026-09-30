@@ -49,18 +49,8 @@ author:
 menu:
   - title:             About
     url:               /about/
-  - title:             Threat Model
-    url:               /threat-model/
-  - title:             Lab Architecture
-    url:               /lab-architecture/
-  - title:             Network Security
-    url:               /network-security/
-  - title:             Platform Security
-    url:               /platform-security/
-  - title:             Detection Engineering
-    url:               /detection-engineering/
-  - title:             Incident Response
-    url:               /incident-response/
+  - title:             Lab Build
+    url:               /lab-build/
   - title:             Resume
     url:               /resume/
 

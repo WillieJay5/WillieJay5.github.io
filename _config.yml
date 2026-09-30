@@ -51,6 +51,8 @@ menu:
     url:               /about/
   - title:             Lab Build
     url:               /lab-build/
+  - title:             Posts
+    url:               /posts/
   - title:             Resume
     url:               /resume/
 

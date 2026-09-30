@@ -50,36 +50,21 @@ detour from them.
 
 ## How I got here
 
-> PLACEHOLDER — finish this in your own voice; I've drafted the arc, you supply
-> the specifics. Two or three sentences covering: what you did before IT, the
-> cybersecurity bootcamp (name/timeframe if you want it public), and what pulled
-> you from support toward defensive security. Then delete this note.
-
-I came into IT through hands-on support and a cybersecurity bootcamp, and the
-deeper I got into keeping systems running, the more the defensive side pulled at
+I came into IT through an unconventional means. I started with almost no hands on skills
+and schooling and leanred most of what I know from home labing and in my current role as an IT Support Specialist.
+The deeper I got into keeping systems running, the more the defensive side pulled at
 me — understanding not just *that* something broke, but whether it was supposed
-to happen, and how I'd know if it were an attacker. `[your specifics here]`
+to happen, and how I'd know if it were an attacker.
 
 ## Certifications & training
 
-> PLACEHOLDER — list only what you actually hold or are actively pursuing, then
-> delete this note. Security-relevant examples to consider; remove any that
-> don't apply:
-
-- CompTIA Security+ — `[in progress / target date, or remove]`
-- CompTIA A+ — `[held / in progress, or remove]`
+- CompTIA Security+ — `March 2025`
 - TryHackMe — active learner ([profile](https://tryhackme.com/p/WillieJay5))
 
 ## The work
 
-I learn by building and documenting. The foundation everything else hangs off is
-the lab's [Threat Model](/threat-model/) — what the lab protects, from whom, and
-how a compromise is contained. The detailed writeups are grouped by domain:
-
-- [Network Security](/network-security/) — segmentation, firewall design, IDS sensor.
-- [Platform Security](/platform-security/) — host hardening, endpoint telemetry.
-- [Detection Engineering](/detection-engineering/) — Graylog pipeline, parsing, detections.
-- [Incident Response](/incident-response/) — ATT&CK-mapped purple-team exercises.
+I learn by building and documenting. A sandbox environment helps a lot with knowing how things work and how to configure them, 
+as well as putting my security knowledge to the test. This would be all documented in my ([posts](/posts/))
 
 ## Let's connect
 

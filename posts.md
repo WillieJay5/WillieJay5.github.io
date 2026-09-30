@@ -1,6 +1,6 @@
 ---
 layout: grid
-title: Blog
+title: Posts
 description: >
   A collection of notes, homelab updates, and project logs.
 ---

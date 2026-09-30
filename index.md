@@ -36,7 +36,15 @@ New to the site? Begin with the **[Posts](/posts/)** — This is where all of my
 
 ## Latest writeups
 
-<!posts>
+<div class="recent-posts">
+  {% for post in site.posts limit:3 %}
+    <article>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="faded">{{ post.date | date: "%B %d, %Y" }}</p>
+      <p>{{ post.description }}</p>
+    </article>
+  {% endfor %}
+</div>
 
 
 ## Let's connect

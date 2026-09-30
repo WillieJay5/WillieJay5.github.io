@@ -36,7 +36,7 @@ New to the site? Begin with the **[Posts](/posts/)** — This is where all of my
 
 ## Latest writeups
 
-<!~~posts~~>
+<!posts>
 
 
 ## Let's connect

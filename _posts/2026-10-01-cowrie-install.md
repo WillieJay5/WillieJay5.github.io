@@ -3,7 +3,7 @@ layout: post
 title: "Deploying a Cowrie Honeypot"
 description: >
   Stand up an SSH honeypot on Debian 12 that logs login attempts. A good launching point for threat detection.
-image: /assets/img/cowrie/cowrie-header.jpg
+image: /assets/img/cowrie/cowrie-header.png
 ---
 
 With standing up an SIEM tool, I started thinking about how to use it. 

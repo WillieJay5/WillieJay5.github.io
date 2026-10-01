@@ -16,9 +16,9 @@ site documents that work through a hands-on homelab where I start from a threat
 model, build the controls, and then prove they actually do what I claimed.
 {:.lead}
 
-![Me](/assets/img/me.jpg)
-
 {:toc .large-only}
+
+![Me](/assets/img/me.jpg)
 
 ## Focus
 

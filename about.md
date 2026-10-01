@@ -40,12 +40,13 @@ detection exists — not just that a tool got installed.
 
 Before and alongside the security work, I support users and systems day to day:
 
-- **Operating systems** — troubleshooting and administration across Windows and Linux.
-- **Identity & directory services** — user and group management in Active Directory.
-- **Networking** — diagnosing connectivity issues and the fundamentals beneath them.
+- **Directory & user sync (LDAP/AD, User Loader)** - Diagnosed base-filter scoping issues and wrote a 3-part triage framework: the CSV isn't generating, the wrong users are included, or the CSV isn't uploading
+- **REST APIs & integrations** - QuickURL/API connector troubleshooting (401s, cert behavior), Postman testing, token and permission scoping, third-party integrations
+- **Networking & DNS** - Packet captures, SLP multicast checks after subnet changes, DNS SRV records for IDNs, flagging duplicate IPs, firewall issues during data-center moves
+- **Platform, servers & hardware** - VM↔physical migrations, failed restores, reflashing devices with first-boot SSL failures, log-gap checklist before an RMA, failover setup
+- **Log analysis** - Reading log bundles, root-causing disk space filling up from SIP speaker syslog errors, HAR files, and SAML tracer exports for IDP issues
 
-This isn't a footnote — it's why the security work clicks. Defending an
-environment means knowing what *normal* looks like: how endpoints and users
+Defending an environment means knowing what *normal* looks like: how endpoints and users
 actually behave, how identity and directory services work, where networks break.
 A support background is a head start on detection and incident response, not a
 detour from them.

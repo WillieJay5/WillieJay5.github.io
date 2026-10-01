@@ -91,3 +91,15 @@ Example code for using Matamo as alternative analytics solution.
 </script>
 {% endif %}
 {% endcomment %}
+
+<script>
+  (function () {
+    function setYear() {
+      var el = document.getElementById("year");
+      if (el) el.textContent = new Date().getFullYear();
+    }
+    setYear();
+    var ps = document.querySelector("hy-push-state");
+    if (ps) ps.addEventListener("hy-push-state-load", setYear);
+  })();
+</script>

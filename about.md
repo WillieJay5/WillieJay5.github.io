@@ -38,7 +38,7 @@ detection exists — not just that a tool got installed.
 
 ## Foundation
 
-Before and alongside the security work, I support users and systems day to day:
+Alongside the security sandboxing, I support users and systems day to day:
 
 - **Directory & user sync (LDAP/AD, User Loader)** - Diagnosed base-filter scoping issues and wrote a 3-part triage framework: the CSV isn't generating, the wrong users are included, or the CSV isn't uploading
 - **REST APIs & integrations** - QuickURL/API connector troubleshooting (401s, cert behavior), Postman testing, token and permission scoping, third-party integrations

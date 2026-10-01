@@ -3,7 +3,7 @@ layout: page
 title: "Homelab Build & Architecture"
 description: >
   A detailed breakdown of my homelab infrastructure, hardware compute nodes, network segmentation, and deployed security services.
-permalink: /lab/
+permalink: /lab-build/
 ---
 
 This page serves as a living document of my homelab infrastructure, detailing the physical hardware, network architecture, and service deployments that power my self-hosted environment.

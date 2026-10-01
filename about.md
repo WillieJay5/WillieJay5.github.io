@@ -51,7 +51,7 @@ detour from them.
 ## How I got here
 
 I came into IT through an unconventional means. I started with almost no hands on skills
-and schooling and leanred most of what I know from home labing and in my current role as an IT Support Specialist.
+and schooling and learned most of what I know from home labing and in my current role as an IT Support Specialist.
 The deeper I got into keeping systems running, the more the defensive side pulled at
 me — understanding not just *that* something broke, but whether it was supposed
 to happen, and how I'd know if it were an attacker.

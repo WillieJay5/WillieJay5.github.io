@@ -10,6 +10,8 @@ hide_description: true
 
 # About
 
+![Me](/assets/img/me.jpg)
+
 I'm an IT support technician moving into **defensive security** — detection
 engineering and SIEM, network and platform security, and incident response. This
 site documents that work through a hands-on homelab where I start from a threat
@@ -17,8 +19,6 @@ model, build the controls, and then prove they actually do what I claimed.
 {:.lead}
 
 {:toc .large-only}
-
-![Me](/assets/img/me.jpg)
 
 ## Focus
 

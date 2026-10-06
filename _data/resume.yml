@@ -1,0 +1,117 @@
+basics:
+  name: "Gage Neumaier"
+  label: "Technical Support Specialist"
+  picture: "/assets/img/me.jpg"
+  email: "gage.neumaier@gmail.com"
+  website: "https://blog.williejaynetwork.com/"
+  summary: >
+    Defensive-security practitioner and CompTIA Security+ holder, building toward a
+    SOC/detection role. Runs a documented homelab with a Graylog SIEM, an SSH
+    honeypot feeding parsed telemetry into it, and OPNsense-enforced VLAN
+    segmentation, all published as step-by-step writeups. Backs this with 1.5 years
+    of enterprise technical support: root-causing incidents from logs, packet
+    captures, HAR files, and SAML traces, troubleshooting identity and certificate
+    failures, and writing clear escalations under pressure.
+  location:
+    city: "Madison"
+    region: "WI"
+    countryCode: "US"
+  profiles:
+    - network: "GitHub"
+      username: "WillieJay5"
+      url: "https://github.com/WillieJay5"
+    - network: "LinkedIn"
+      username: "gage-neumaier-239ab21a5"
+      url: "https://www.linkedin.com/in/gage-neumaier-239ab21a5"
+
+work:
+  - company: "Singlewire Software"
+    position: "Technical Support Specialist"
+    website: "https://www.singlewire.com/"
+    startDate: "2025-05-05"
+    summary: >
+      Escalated technical support for InformaCast emergency mass-notification
+      systems used by schools, county governments, and hospitals.
+    highlights:
+      - "Triage and resolve escalated incidents where downtime carries life-safety impact."
+      - "Root-caused outages from log bundles, syslog, HAR files, and SAML tracer exports, including a server disk-exhaustion outage traced to SIP device syslog errors and several IdP/SSO authentication failures."
+      - "Use packet captures to isolate DNS, multicast, firewall, and duplicate-IP problems, including firewall rule issues during data-center migrations."
+      - "Diagnose authentication and authorization failures in REST API integrations (401s, certificate trust, token and permission scoping) using Postman."
+      - "Fixed LDAP/Active Directory sync errors where a misscoped base filter pulled in the wrong user population; wrote a three-part triage framework now used to train new engineers."
+      - "Support Cisco CUCM and Webex Calling environments, including SIP trunks, SNMP, and CTIManager service health."
+      - "Escalate to L3 and development with complete evidence and written summaries; separate true defects from feature requests and out-of-scope work."
+      - "Write internal KB articles, canned responses, and troubleshooting frameworks; mentored a newer engineer on structured troubleshooting."
+
+# Rendered under the "Projects" heading (renamed in _data/strings.yml).
+# Hydejack has no projects section, so this uses the volunteer section.
+volunteer:
+  - position: "Defensive-Security Homelab"
+    organization: "blog.williejaynetwork.com"
+    website: "https://blog.williejaynetwork.com/lab-build/"
+    startDate: "2026-09-30"
+    summary: >
+      A segmented security lab built from a threat model, with every build
+      published as a reproducible writeup.
+    highlights:
+      - "Designed a segmented lab on Proxmox VE behind a bare-metal OPNsense firewall, with separate management, lab, and user VLANs and no outbound internet from the management zone."
+      - "Deployed a Graylog SIEM on Debian behind an Nginx reverse proxy with TLS from Certbot and Cloudflare DNS validation."
+      - "Stood up a Cowrie SSH honeypot in the isolated lab VLAN to capture real brute-force attempts as detection source data."
+      - "Built an end-to-end Cowrie-to-Graylog pipeline: GELF HTTP input, dedicated index set, input-based stream routing, and a pipeline rule that parses raw JSON into searchable fields."
+
+education:
+  - institution: "University of Wisconsin - Madison"
+    area: "Cybersecurity Professional Program"
+    studyType: "Certificate"
+    endDate: "2025-01-01"
+    courses:
+      - "Computer Networking Fundamentals"
+      - "Microsoft Security System Administration"
+  - institution: "University of Wisconsin - Madison"
+    area: "Biological Systems Engineering"
+    studyType: "Bachelor"
+    startDate: "2019-09-01"
+    endDate: "2023-05-01"
+    courses:
+      - "Introduction to Operating Systems"
+      - "Data Structures"
+      - "Machine Organization & Programming"
+
+# Rendered under the "Certifications" heading (renamed in _data/strings.yml).
+awards:
+  - title: "CompTIA Security+"
+    date: "2025-03-25"
+    awarder: "CompTIA"
+
+# Levels that render as dots: beginner, intermediate, expert (or professional).
+skills:
+  - name: "SIEM & Log Pipelines"
+    level: "Intermediate"
+    keywords: ["Graylog", "GELF", "Streams & pipeline rules", "Splunk", "Syslog", "JSON parsing"]
+  - name: "Detection & Telemetry"
+    level: "Intermediate"
+    keywords: ["Cowrie honeypot", "Suricata IDS/IPS", "HAR analysis", "SAML tracer"]
+  - name: "Network Security"
+    level: "Intermediate"
+    keywords: ["OPNsense", "pfSense", "VLAN segmentation", "Packet capture", "DNS", "DHCP", "VPN", "iptables"]
+  - name: "Identity & Access"
+    level: "Intermediate"
+    keywords: ["Active Directory", "LDAP", "Group Policy", "SAML/SSO", "Certificates/TLS"]
+  - name: "Infrastructure"
+    level: "Intermediate"
+    keywords: ["Proxmox VE", "LXC", "Debian", "Ubuntu", "Windows Server", "Nginx", "Certbot"]
+  - name: "Scripting & Tools"
+    level: "Intermediate"
+    keywords: ["PowerShell", "Python", "Bash", "Postman", "REST APIs", "Git"]
+  - name: "Unified Communications"
+    level: "Intermediate"
+    keywords: ["Cisco CUCM", "Webex Calling", "SIP", "SNMP"]
+
+languages:
+  - language: "English"
+    fluency: "Native speaker"
+
+interests:
+  - name: "Homelabbing"
+    keywords: ["Proxmox", "Self-hosting"]
+  - name: "Threat Research"
+    keywords: ["Honeypots", "Hack The Box", "TryHackMe"]

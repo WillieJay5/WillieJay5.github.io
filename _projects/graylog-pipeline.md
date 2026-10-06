@@ -20,8 +20,7 @@ more_projects: /projects/
 
 This project builds a working detection pipeline in my homelab, one piece at a time.
 It starts with a central SIEM, adds a honeypot to generate real attack data, then
-connects the two so every login attempt arrives parsed and searchable. See the
-[Lab Build](/lab-build/) page for the network it runs on.
+connects the two so every login attempt arrives parsed and searchable.
 
 ## The build
 

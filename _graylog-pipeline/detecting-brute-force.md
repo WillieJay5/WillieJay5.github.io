@@ -10,8 +10,6 @@ caption: Turning parsed logs into a brute-force alert, a dashboard, and a live t
 links:
   - title: Project overview
     url: /projects/graylog-pipeline/
-  - title: Lab Build
-    url: /lab-build/
 ---
 
 We have logs flowing in and parsed into clean fields. Now let's actually *use* them.

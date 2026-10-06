@@ -9,11 +9,11 @@ image: /assets/img/graylog/graylog-logo.jfif
 date: 2026-10-06
 featured: true
 
-# The parts, in reading order. Add part 4 here when it's published.
 selected_projects:
   - _graylog-pipeline/graylog-siem.md
   - _graylog-pipeline/cowrie-honeypot.md
   - _graylog-pipeline/cowrie-graylog-pipeline.md
+  - _graylog-pipeline/detecting-brute-force.md
 more_projects: /projects/
 ---
 

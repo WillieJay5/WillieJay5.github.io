@@ -47,15 +47,6 @@ security concepts and lessons learned.
 
 <!--projects-->
 
-{% if site.posts.size > 1 %}
 ## Latest posts
 
 <!--posts-->
-{% endif %}
-
-## Let's connect
-
-I'm building toward a defensive-security role and happy to talk detection,
-segmentation, or homelab design. Start with the [about page](/about/), grab the
-[resume](/resume/), or reach me on
-[LinkedIn](https://www.linkedin.com/in/gage-neumaier-239ab21a5).

@@ -2,9 +2,9 @@
 layout: grid
 title: Posts
 description: >
-  A collection of notes, homelab updates, and project logs.
+  Security notes, concepts, and lessons learned.
 ---
 
-Welcome to the Posts page! Below is a collection of my latest posts, automatically generated and sorted by date.
+Short writeups on security concepts, tools, and things I'm learning along the way.
 
-Feel free to use the search button above if you have anything specific that you're looking for.
+For hands-on homelab builds, see [Projects](/projects/).

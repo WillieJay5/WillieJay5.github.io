@@ -9,8 +9,6 @@ caption: An SSH honeypot that captures real brute-force attempts.
 links:
   - title: Project overview
     url: /projects/graylog-pipeline/
-  - title: Lab Build
-    url: /lab-build/
 redirect_from:
   - /2026-10-01-cowrie-install/
 ---

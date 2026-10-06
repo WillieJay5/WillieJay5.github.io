@@ -163,6 +163,11 @@ defaults:
       seo:
         type:          WebPage
   - scope:
+      type:            graylog-pipeline
+    values:
+      seo:
+        type:          WebPage
+  - scope:
       type:            featured_categories
     values:
       seo:
@@ -298,6 +303,12 @@ collections:
     output:            true
 
   projects:
+    permalink:         /projects/:path/
+    output:            true
+
+  # One collection per project; each project's parts live in its folder.
+  # Same URL pattern as projects, so part URLs stay /projects/<name>/.
+  graylog-pipeline:
     permalink:         /projects/:path/
     output:            true
 

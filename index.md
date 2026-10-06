@@ -7,11 +7,10 @@ description: >
   engineering, network segmentation, and incident response, designed from a
   threat model and proven in a live lab.
 
-# Cards under "Latest projects". With no list, the two newest projects show.
-# To hand-pick instead, uncomment and list them (paths or URLs):
-# selected_projects:
-#   - _projects/cowrie-graylog-pipeline.md
-#   - _projects/graylog-siem.md
+# Cards under "Latest projects". Listed explicitly, because the automatic
+# version only appears once there are two or more projects.
+selected_projects:
+  - _projects/graylog-pipeline.md
 more_projects: /projects/
 
 # Cards under "Latest posts". Same idea: newest four by default, or pick with

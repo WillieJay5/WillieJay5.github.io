@@ -6,14 +6,14 @@ description: >
 hide_description: true
 left_column:
   - work
+  - volunteer
   - education
-  - interests
-  - languages
   
 right_column:
-  - volunteer
   - awards
   - skills
+  - interests
+  - languages
 
 buttons:
   print: true

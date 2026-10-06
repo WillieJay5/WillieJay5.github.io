@@ -5,7 +5,7 @@ description: >
   The payoff: an Event Definition that fires on SSH brute-force, a dashboard that
   shows the attack in real time, and a live test with Hydra from Kali.
 image: /assets/img/graylog/graylog-logo.jfif
-date: 2026-10-07
+date: 2026-10-06
 caption: Turning parsed logs into a brute-force alert, a dashboard, and a live test.
 links:
   - title: Project overview

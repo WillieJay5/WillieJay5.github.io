@@ -51,6 +51,8 @@ menu:
     url:               /about/
   - title:             Lab Build
     url:               /lab-build/
+  - title:             Projects
+    url:               /projects/
   - title:             Posts
     url:               /posts/
   - title:             Resume
@@ -422,3 +424,4 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
+

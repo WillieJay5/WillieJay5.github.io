@@ -6,6 +6,17 @@ description: >
   Defensive-security homelab and writeups by Gage Neumaier — detection
   engineering, network segmentation, and incident response, designed from a
   threat model and proven in a live lab.
+
+# Cards under "Latest projects". With no list, the two newest projects show.
+# To hand-pick instead, uncomment and list them (paths or URLs):
+# selected_projects:
+#   - _projects/cowrie-graylog-pipeline.md
+#   - _projects/graylog-siem.md
+more_projects: /projects/
+
+# Cards under "Latest posts". Same idea: newest four by default, or pick with
+# selected_posts.
+more_posts: /posts/
 ---
 
 A defensive-security homelab, documented end to end. I build detection,
@@ -32,32 +43,14 @@ security concepts and lessons learned.
 - **Incident Response** — MITRE ATT&CK-mapped exercises,
   documented from first alert through containment and lessons learned.
 
-
 ## Latest projects
 
-<div class="recent-posts">
-  {% assign recent_projects = site.projects | sort: "date" | reverse %}
-  {% for project in recent_projects limit:3 %}
-    <article>
-      <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-      <p class="faded">{{ project.date | date: "%B %d, %Y" }}</p>
-      <p>{{ project.description }}</p>
-    </article>
-  {% endfor %}
-</div>
+<!--projects-->
 
-{% if site.posts.size > 0 %}
+{% if site.posts.size > 1 %}
 ## Latest posts
 
-<div class="recent-posts">
-  {% for post in site.posts limit:3 %}
-    <article>
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p class="faded">{{ post.date | date: "%B %d, %Y" }}</p>
-      <p>{{ post.description }}</p>
-    </article>
-  {% endfor %}
-</div>
+<!--posts-->
 {% endif %}
 
 ## Let's connect
@@ -66,4 +59,3 @@ I'm building toward a defensive-security role and happy to talk detection,
 segmentation, or homelab design. Start with the [about page](/about/), grab the
 [resume](/resume/), or reach me on
 [LinkedIn](https://www.linkedin.com/in/gage-neumaier-239ab21a5).
-

@@ -4,6 +4,9 @@ title: "Collecting Cowrie Logs"
 description: >
   Completing the link between Cowrie and Graylog. Our first pipeline
 image: /assets/img/graylog/graylog-logo.jfif
+related_posts:
+  - _posts/2026-09-30-graylog.md
+  - _posts/2026-10-01-cowrie-install.md
 ---
 
 Now that the Cowrie server is up and running, how can we connect this to Graylog?

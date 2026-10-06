@@ -7,12 +7,14 @@ hide_description: true
 left_column:
   - work
   - education
-  - certifications
-  - references
-right_column:
-  - skills
+  - interests
   - languages
-  - projects
+  
+right_column:
+  - volunteer
+  - awards
+  - skills
+
 buttons:
   print: true
   pdf: /assets/Resume.pdf

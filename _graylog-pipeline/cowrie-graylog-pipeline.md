@@ -9,8 +9,6 @@ caption: Shipping and parsing honeypot logs in Graylog.
 links:
   - title: Project overview
     url: /projects/graylog-pipeline/
-  - title: Lab Build
-    url: /lab-build/
 redirect_from:
   - /2026-10-06-cowire-logging/
 ---

@@ -49,8 +49,6 @@ author:
 menu:
   - title:             About
     url:               /about/
-  - title:             Lab Build
-    url:               /lab-build/
   - title:             Projects
     url:               /projects/
   - title:             Posts

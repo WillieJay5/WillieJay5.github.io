@@ -17,7 +17,9 @@ installed.
 
 ## Start here
 
-New to the site? Begin with the **[Posts](/posts/)** — This is where all of my documentation lives, filtered by post date.
+New to the site? Begin with the **[Projects](/projects/)**, the hands-on builds from
+my homelab, written up step by step. The **[Posts](/posts/)** are where I write up
+security concepts and lessons learned.
 
 ## What I work on
 
@@ -31,10 +33,21 @@ New to the site? Begin with the **[Posts](/posts/)** — This is where all of my
   documented from first alert through containment and lessons learned.
 
 
-  LATEST WRITEUPS — uncomment this block once you have at least one published
-  post, otherwise it renders an empty section under a heading.
+## Latest projects
 
-## Latest writeups
+<div class="recent-posts">
+  {% assign recent_projects = site.projects | sort: "date" | reverse %}
+  {% for project in recent_projects limit:3 %}
+    <article>
+      <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+      <p class="faded">{{ project.date | date: "%B %d, %Y" }}</p>
+      <p>{{ project.description }}</p>
+    </article>
+  {% endfor %}
+</div>
+
+{% if site.posts.size > 0 %}
+## Latest posts
 
 <div class="recent-posts">
   {% for post in site.posts limit:3 %}
@@ -45,7 +58,7 @@ New to the site? Begin with the **[Posts](/posts/)** — This is where all of my
     </article>
   {% endfor %}
 </div>
-
+{% endif %}
 
 ## Let's connect
 
@@ -53,3 +66,4 @@ I'm building toward a defensive-security role and happy to talk detection,
 segmentation, or homelab design. Start with the [about page](/about/), grab the
 [resume](/resume/), or reach me on
 [LinkedIn](https://www.linkedin.com/in/gage-neumaier-239ab21a5).
+

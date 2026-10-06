@@ -17,7 +17,7 @@ installed.
 
 ## Start here
 
-New to the site? Begin with the **[Posts](/posts/)** — This is where all of my docuementation
+New to the site? Begin with the **[Posts](/posts/)** — This is where all of my documentation lives, filtered by post date.
 
 ## What I work on
 

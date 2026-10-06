@@ -6,7 +6,7 @@ description: >
   honeypot, and the pipeline that connects them, built in parts.
 caption: A SIEM, a honeypot, and the pipeline between them, built in parts.
 image: /assets/img/graylog/graylog-logo.jfif
-date: 2026-10-07
+date: 2026-10-06
 featured: true
 
 # The parts, in reading order.

@@ -9,8 +9,6 @@ caption: Graylog SIEM on Debian, behind an Nginx reverse proxy.
 links:
   - title: Project overview
     url: /projects/graylog-pipeline/
-  - title: Lab Build
-    url: /lab-build/
 redirect_from:
   - /2026-09-30-graylog/
 ---
